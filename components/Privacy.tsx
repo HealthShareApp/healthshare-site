@@ -20,16 +20,15 @@ export default function Privacy() {
         </p>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
           {[
-            { icon: "🔒", text: "No HealthShare servers" },
-            { icon: "📁", text: "Your Drive, your files" },
-            { icon: "🎛️", text: "You control every export" },
-          ].map((item) => (
+            "No HealthShare servers",
+            "Your Drive, your files",
+            "You control every export",
+          ].map((text) => (
             <div
-              key={item.text}
-              className="bg-white/10 rounded-xl px-4 py-3 text-white text-sm font-medium flex items-center justify-center gap-2"
+              key={text}
+              className="bg-white/10 rounded-xl px-4 py-3 text-white text-sm font-medium flex items-center justify-center"
             >
-              <span>{item.icon}</span>
-              <span>{item.text}</span>
+              {text}
             </div>
           ))}
         </div>
