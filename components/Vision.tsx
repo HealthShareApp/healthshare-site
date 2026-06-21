@@ -1,5 +1,6 @@
 const phases = [
   {
+    id: "today",
     status: "today",
     label: "Available now",
     title: "Your data, your Drive",
@@ -13,6 +14,7 @@ const phases = [
     ],
   },
   {
+    id: "doctor",
     status: "coming",
     label: "Coming soon",
     title: "A direct line to your doctor",
@@ -23,6 +25,20 @@ const phases = [
       "End-to-end encrypted transfer — HealthShare never reads the contents",
       "Your doctor receives a clean, structured report, not raw device noise",
       "Works with clinics and medical centers, not just individuals",
+    ],
+  },
+  {
+    id: "band",
+    status: "coming",
+    label: "Coming soon",
+    title: "The HealthShare Band",
+    description:
+      "We're making our own wristband tracker — free for every HealthShare user. No subscription, no rental fee. Just put it on and your health data starts flowing.",
+    points: [
+      "Free wristband, no subscription — included with your account",
+      "Tracks HRV, heart rate, sleep stages, and blood oxygen 24/7",
+      "Syncs directly into Apple Health and your HealthShare reports",
+      "Built by our team, designed for full data ownership from day one",
     ],
   },
 ];
@@ -37,16 +53,16 @@ export default function Vision() {
           </h2>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
             HealthShare is building the infrastructure for health data you actually control —
-            from your wrist to your Google Drive, and soon, directly to the doctors you trust.
+            from your wrist to your Drive, directly to your doctor, and soon on hardware we make ourselves.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {phases.map((phase) => {
             const isToday = phase.status === "today";
             return (
               <div
-                key={phase.status}
+                key={phase.id}
                 className={`relative rounded-2xl p-8 flex flex-col gap-6 ${
                   isToday
                     ? "bg-white dark:bg-gray-800 border border-[#00B5A3]/40"
