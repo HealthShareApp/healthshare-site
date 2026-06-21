@@ -44,6 +44,7 @@ export default function EcgDivider() {
     }
 
     function init() {
+      if (!canvas) return;
       const dpr = window.devicePixelRatio || 1;
       const rect = canvas.getBoundingClientRect();
       W = rect.width;
