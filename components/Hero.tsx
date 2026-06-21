@@ -25,13 +25,8 @@ export default function Hero() {
           </p>
         </div>
 
-        {/* Badge + CTA */}
+        {/* CTA */}
         <div className="flex flex-col items-center gap-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E0F7F5] dark:bg-[#00B5A3]/20 text-[#00B5A3] text-sm font-medium">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#00B5A3]" />
-            iOS App — Available now
-          </div>
-
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a
               href="#"
