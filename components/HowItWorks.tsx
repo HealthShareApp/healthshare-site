@@ -27,13 +27,13 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-24 px-6 bg-white">
+    <section id="how-it-works" className="py-24 px-6 bg-white dark:bg-gray-950">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">
             How it works
           </h2>
-          <p className="mt-4 text-lg text-gray-500">
+          <p className="mt-4 text-lg text-gray-500 dark:text-gray-400">
             Four steps from setup to sharing.
           </p>
         </div>
@@ -45,8 +45,8 @@ export default function HowItWorks() {
                 {step.number}
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900 mb-1">{step.title}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed">{step.description}</p>
+                <h3 className="font-semibold text-gray-900 dark:text-white mb-1">{step.title}</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{step.description}</p>
               </div>
             </div>
           ))}

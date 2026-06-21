@@ -1,6 +1,6 @@
 export default function Privacy() {
   return (
-    <section className="py-24 px-6 bg-[#00B5A3]">
+    <section className="py-24 px-6 bg-[#00B5A3] dark:bg-[#008a7a]">
       <div className="max-w-3xl mx-auto text-center">
         <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-white/20 mb-8">
           <svg width="28" height="28" viewBox="0 0 28 28" fill="none">

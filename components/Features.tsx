@@ -6,8 +6,7 @@ const features = [
       </svg>
     ),
     title: "Full Apple Health coverage",
-    description:
-      "Heart rate & HRV, sleep stages, steps, workouts, blood oxygen — everything your Apple Watch captures.",
+    description: "Heart rate & HRV, sleep stages, steps, workouts, blood oxygen — everything your Apple Watch captures.",
   },
   {
     icon: (
@@ -16,8 +15,7 @@ const features = [
       </svg>
     ),
     title: "Structured, LLM-ready reports",
-    description:
-      "Exports a clean JSON profile with aggregated metrics, anomaly flags, and sleep/activity scores — ready for AI analysis.",
+    description: "Exports a clean JSON profile with aggregated metrics, anomaly flags, and sleep/activity scores — ready for AI analysis.",
   },
   {
     icon: (
@@ -26,8 +24,7 @@ const features = [
       </svg>
     ),
     title: "You control the trigger",
-    description:
-      "No background tracking. No automatic uploads. Hold the sync button and export exactly when you decide.",
+    description: "No background tracking. No automatic uploads. Hold the sync button and export exactly when you decide.",
   },
   {
     icon: (
@@ -36,8 +33,7 @@ const features = [
       </svg>
     ),
     title: "Configurable time window",
-    description:
-      "Choose your export range: last 12 hours, 24 hours, 3 days, or 7 days. Change it any time in Settings.",
+    description: "Choose your export range: last 12 hours, 24 hours, 3 days, or 7 days. Change it any time in Settings.",
   },
   {
     icon: (
@@ -46,8 +42,7 @@ const features = [
       </svg>
     ),
     title: "Your Drive, your folder",
-    description:
-      "Files land in a \"HealthShare\" folder in your own Google Drive. Share the folder or individual files on your terms.",
+    description: "Files land in a \"HealthShare\" folder in your own Google Drive. Share the folder or individual files on your terms.",
   },
   {
     icon: (
@@ -56,20 +51,19 @@ const features = [
       </svg>
     ),
     title: "No servers, no accounts",
-    description:
-      "HealthShare never sees your data. Everything flows directly from Apple Health to your own Google Drive.",
+    description: "HealthShare never sees your data. Everything flows directly from Apple Health to your own Google Drive.",
   },
 ];
 
 export default function Features() {
   return (
-    <section id="features" className="py-24 px-6 bg-gray-50">
+    <section id="features" className="py-24 px-6 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">
             Everything you need, nothing you don&apos;t
           </h2>
-          <p className="mt-4 text-lg text-gray-500 max-w-xl mx-auto">
+          <p className="mt-4 text-lg text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
             Built for people who take their health seriously and want full ownership of their data.
           </p>
         </div>
@@ -78,13 +72,13 @@ export default function Features() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="bg-white rounded-2xl p-6 border border-gray-100 hover:border-[#00B5A3]/30 hover:shadow-md transition-all duration-200"
+              className="bg-white dark:bg-gray-800 rounded-2xl p-6 border border-gray-100 dark:border-gray-700 hover:border-[#00B5A3]/30 hover:shadow-md transition-all duration-200"
             >
-              <div className="w-10 h-10 rounded-xl bg-[#E0F7F5] text-[#00B5A3] flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-xl bg-[#E0F7F5] dark:bg-[#00B5A3]/20 text-[#00B5A3] flex items-center justify-center mb-4">
                 {f.icon}
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">{f.title}</h3>
-              <p className="text-sm text-gray-500 leading-relaxed">{f.description}</p>
+              <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{f.title}</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">{f.description}</p>
             </div>
           ))}
         </div>
