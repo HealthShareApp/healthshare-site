@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import TrackerStrip from "@/components/TrackerStrip";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import Privacy from "@/components/Privacy";
@@ -10,6 +11,7 @@ export default function Home() {
     <main className="flex flex-col">
       <Nav />
       <Hero />
+      <TrackerStrip />
       <Features />
       <HowItWorks />
       <Privacy />
