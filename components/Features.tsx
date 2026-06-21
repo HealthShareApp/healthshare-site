@@ -5,8 +5,8 @@ const features = [
         <path d="M12 4C12 4 5 7.5 5 12.5C5 15.537 8.134 18 12 18C15.866 18 19 15.537 19 12.5C19 7.5 12 4 12 4Z" fill="currentColor" />
       </svg>
     ),
-    title: "Full Apple Health coverage",
-    description: "Heart rate & HRV, sleep stages, steps, workouts, blood oxygen — everything your Apple Watch captures.",
+    title: "Works with every tracker you own",
+    description: "Apple Watch, Whoop, Oura, Garmin — if it syncs to Apple Health, HealthShare can export it. Heart rate, HRV, sleep stages, workouts, steps, blood oxygen, and more.",
   },
   {
     icon: (

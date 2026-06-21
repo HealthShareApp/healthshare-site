@@ -21,8 +21,9 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="text-xl text-gray-500 dark:text-gray-400 max-w-2xl leading-relaxed">
-          HealthShare reads your Apple Health metrics and exports a structured report
-          to Google Drive — whenever you choose, shared with whoever you trust.
+          Apple Watch, Whoop, Oura, Garmin — whatever you track with, the data already
+          lives in Apple Health. HealthShare exports it as a structured report to your
+          Google Drive, ready to share with your doctor, trainer, or AI.
         </p>
 
         {/* CTA */}

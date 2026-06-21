@@ -3,7 +3,7 @@ const steps = [
     number: "01",
     title: "Grant Health access",
     description:
-      "HealthShare asks for read access to your Apple Health data. Nothing is read until you explicitly trigger an export.",
+      "HealthShare reads from Apple Health, which already aggregates data from all your devices — Apple Watch, Whoop, Oura, Garmin, and more. Nothing is read until you trigger an export.",
   },
   {
     number: "02",
