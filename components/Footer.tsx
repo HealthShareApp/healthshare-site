@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="py-12 px-6 bg-gray-900 dark:bg-gray-950 border-t border-gray-800 dark:border-gray-800">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
-          <Image src="/logo.png" alt="HealthShare logo" width={24} height={24} className="rounded-md" />
+          <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.png`} alt="HealthShare logo" width={24} height={24} className="rounded-md" />
           <span className="text-white font-semibold text-sm">HealthShare</span>
         </div>
 

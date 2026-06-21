@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-10">
 
         {/* Logo */}
-        <Image src="/logo.png" alt="HealthShare" width={120} height={120} priority />
+        <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.png`} alt="HealthShare" width={120} height={120} priority />
 
         {/* Headline → ECG divider → Subheadline */}
         <div className="flex flex-col items-center gap-6">
