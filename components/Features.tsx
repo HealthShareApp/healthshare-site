@@ -51,7 +51,7 @@ const features = [
       </svg>
     ),
     title: "No servers, no accounts",
-    description: "HealthShare never sees your data. Everything flows directly from Apple Health to your own Google Drive.",
+    description: "All aggregation and processing happens on your device. HealthShare never sends your data anywhere — it goes directly from your phone to your own Google Drive.",
   },
 ];
 
