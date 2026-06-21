@@ -111,7 +111,7 @@ export default function EcgDivider() {
       // Fades in from left and out to right so it reads as a flowing divider.
       style={{
         width: "100%",
-        maxWidth: "560px",
+        maxWidth: "800px",
         height: "52px",
         maskImage:
           "linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
