@@ -93,10 +93,10 @@ export default function AnimatedBackground() {
       // teal; the gradient fades completely before reaching the edges.
       const breathe = (Math.sin((2 * Math.PI * ts) / 7000) + 1) / 2; // 0 → 1
 
-      const aBase = dark ? (mobile ? 0.018 : 0.030) : 0.006;
-      const aPeak = dark ? (mobile ? 0.018 : 0.028) : 0.005;
+      const aBase = dark ? (mobile ? 0.040 : 0.055) : (mobile ? 0.020 : 0.030);
+      const aPeak = dark ? (mobile ? 0.035 : 0.050) : (mobile ? 0.015 : 0.025);
       const gAlpha = aBase + breathe * aPeak;
-      const gRadius = Math.min(W, H) * (0.36 + breathe * 0.18);
+      const gRadius = Math.min(W, H) * (0.38 + breathe * 0.20);
       const gx = W * 0.5;
       const gy = H * 0.36;
 
@@ -108,9 +108,8 @@ export default function AnimatedBackground() {
       ctx.fillRect(0, 0, W, H);
 
       // ── Layer B: ECG pulse ────────────────────────────────────────────────
-      // Scrolls horizontally at a constant slow speed. Dark + desktop only —
-      // on mobile or light mode the glow alone is sufficient ambient texture.
-      if (!dark || mobile) return;
+      // Scrolls horizontally at a constant slow speed. Desktop only.
+      if (mobile) return;
 
       const cycleW  = Math.min(360, W * 0.28);   // one beat width in px
       const amp     = H * 0.050;                  // full R-spike height in px
@@ -120,7 +119,7 @@ export default function AnimatedBackground() {
 
       ctx.save();
       ctx.beginPath();
-      ctx.strokeStyle = `rgba(${tr},${tg},${tb},0.070)`;
+      ctx.strokeStyle = `rgba(${tr},${tg},${tb},${dark ? 0.12 : 0.08})`;
       ctx.lineWidth   = 1.25;
       ctx.lineJoin    = "round";
       ctx.lineCap     = "round";
