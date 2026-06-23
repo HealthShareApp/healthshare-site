@@ -11,7 +11,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-6 text-sm text-gray-400">
           <a href="https://lopsided-ghoul-4da.notion.site/Health-Share-App-Privacy-Policy-386067544a6280109427db89f4728bc9" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition-colors">Support</a>
+          <a href="mailto:alexander.kaigorodow@gmail.com" className="hover:text-white transition-colors">Support</a>
           <a
             href="https://github.com/HealthShareApp"
             target="_blank"
