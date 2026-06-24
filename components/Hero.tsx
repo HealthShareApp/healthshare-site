@@ -29,7 +29,9 @@ your own cloud storage, ready to share with your doctor, trainer, or AI.
         <div className="flex flex-col items-center gap-4">
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a
-              href="#"
+              href="https://apps.apple.com/rs/app/health-share-app/id6774078775"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-[#00B5A3] text-white font-semibold text-[15px] hover:bg-[#009688] transition-colors shadow-sm"
             >
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
