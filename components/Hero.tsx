@@ -21,7 +21,7 @@ export default function Hero() {
           <p className="text-xl text-gray-500 dark:text-gray-400 max-w-2xl leading-relaxed">
             Apple Watch, Whoop, Oura, Garmin — whatever you track with, the data already
             lives in Apple Health. HealthShare exports it as a structured report to your
-            Google Drive, ready to share with your doctor, trainer, or AI.
+your own cloud storage, ready to share with your doctor, trainer, or AI.
           </p>
         </div>
 

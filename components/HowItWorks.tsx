@@ -7,9 +7,9 @@ const steps = [
   },
   {
     number: "02",
-    title: "Connect Google Drive",
+    title: "Connect your storage",
     description:
-      "Sign in with Google to let HealthShare upload files to a dedicated folder in your Drive. You can revoke this any time.",
+      "Connect the cloud storage you trust — starting with Google Drive, with more options on the way. HealthShare uploads to a dedicated folder you own. You can revoke access any time.",
   },
   {
     number: "03",
@@ -21,7 +21,7 @@ const steps = [
     number: "04",
     title: "Share on your terms",
     description:
-      "Open Google Drive and share the file with your doctor, nutritionist, trainer — or feed it into an AI for analysis.",
+      "Open your storage and share the file with your doctor, nutritionist, trainer — or feed it into an AI for analysis.",
   },
 ];
 

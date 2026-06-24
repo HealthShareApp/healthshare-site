@@ -42,7 +42,7 @@ const features = [
       </svg>
     ),
     title: "Your storage, your folder",
-    description: "Files land in a HealthShare folder in your own Google Drive — with more storage options on the way. Share the folder or individual files on your terms.",
+    description: "Files land in a dedicated HealthShare folder in the cloud storage you choose — Google Drive today, with more options on the way. Share the folder or individual files on your terms.",
   },
   {
     icon: (

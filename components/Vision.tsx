@@ -3,9 +3,9 @@ const phases = [
     id: "today",
     status: "today",
     label: "Available now",
-    title: "Your data, your Drive",
+    title: "Your data, your storage",
     description:
-      "Export a full health snapshot to your Google Drive on demand. Share it with your trainer, nutritionist, or AI assistant — or keep it for yourself. You control every step.",
+      "Export a full health snapshot to your own cloud storage on demand. Share it with your trainer, nutritionist, or AI assistant — or keep it for yourself. You control every step.",
     points: [
       "One hold exports your complete health profile",
       "Works with any tracker that syncs to Apple Health",
@@ -50,11 +50,11 @@ export default function Vision() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white tracking-tight">
-            More than a Drive export
+            More than an export
           </h2>
           <p className="mt-4 text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
             HealthShare is building the infrastructure for health data you actually control —
-            from your wrist to your Drive, directly to your doctor, and soon on hardware we make ourselves.
+            from your wrist to your storage, directly to your doctor, and soon on hardware we make ourselves.
           </p>
         </div>
 
