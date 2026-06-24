@@ -16,7 +16,7 @@ export default function Analytics() {
           {[
             "On-device health state analysis",
             "Human-readable summaries",
-            "Structured for AI tools & FHIR",
+            "Structured for AI tools",
           ].map((text) => (
             <div
               key={text}
