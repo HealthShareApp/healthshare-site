@@ -1,6 +1,6 @@
 export default function Analytics() {
   return (
-    <section className="py-24 px-6 bg-gray-900 dark:bg-gray-950">
+    <section className="py-24 px-6 bg-gray-900 dark:bg-gray-950 border-t border-gray-700 dark:border-gray-700">
       <div className="max-w-3xl mx-auto text-center">
         <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-white/10 mb-8">
           <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
