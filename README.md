@@ -41,7 +41,7 @@ Four steps from setup to sharing:
 ### Aggregation, analysis & visualization
 HealthShare aggregates your tracker data, runs lightweight on-device analysis, and surfaces it as a structured, readable report. Useful for your own review — and ready for any AI tool or medical professional you choose to share it with.
 
-Pills: On-device health state analysis · Human-readable summaries · Structured for AI tools & FHIR
+Pills: On-device health state analysis · In-app charts & insights · Structured for AI tools & FHIR
 
 ---
 

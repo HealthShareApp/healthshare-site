@@ -15,7 +15,7 @@ export default function Analytics() {
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           {[
             "On-device health state analysis",
-            "Human-readable summaries",
+            "In-app charts & insights",
             "Structured for AI tools",
           ].map((text) => (
             <div
