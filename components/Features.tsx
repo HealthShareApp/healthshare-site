@@ -41,8 +41,8 @@ const features = [
         <path d="M22 12C22 17.523 17.523 22 12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12ZM8 12L11 15L16 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
-    title: "Your Drive, your folder",
-    description: "Files land in a \"HealthShare\" folder in your own Google Drive. Share the folder or individual files on your terms.",
+    title: "Your storage, your folder",
+    description: "Files land in a HealthShare folder in your own Google Drive — with more storage options on the way. Share the folder or individual files on your terms.",
   },
   {
     icon: (
@@ -50,8 +50,8 @@ const features = [
         <path d="M9 3H5C3.895 3 3 3.895 3 5V9C3 10.105 3.895 11 5 11H9C10.105 11 11 10.105 11 9V5C11 3.895 10.105 3 9 3ZM19 3H15C13.895 3 13 3.895 13 5V9C13 10.105 13.895 11 15 11H19C20.105 11 21 10.105 21 9V5C21 3.895 20.105 3 19 3ZM9 13H5C3.895 13 3 13.895 3 15V19C3 20.105 3.895 21 5 21H9C10.105 21 11 20.105 11 19V15C11 13.895 10.105 13 9 13ZM19 13H15C13.895 13 13 13.895 13 15V19C13 20.105 13.895 21 15 21H19C20.105 21 21 20.105 21 19V15C21 13.895 20.105 13 19 13Z" fill="currentColor" />
       </svg>
     ),
-    title: "No servers, no accounts",
-    description: "All aggregation and processing happens on your device. HealthShare never sends your data anywhere — it goes directly from your phone to your own Google Drive.",
+    title: "We never hold your data",
+    description: "Aggregation and processing happen on your device. Your report goes straight from your phone into storage you own — never to a HealthShare server. No data lake: nothing for us to lose, sell, or be forced to hand over.",
   },
 ];
 

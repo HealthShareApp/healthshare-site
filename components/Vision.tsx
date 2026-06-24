@@ -19,11 +19,12 @@ const phases = [
     label: "Coming soon",
     title: "A direct line to your doctor",
     description:
-      "We're building a secure, private channel between you and the medical professionals you trust — so your health data reaches the right hands without passing through anyone else's.",
+      "Grant the medical professionals you trust direct, revocable access to your reports — straight from your own storage, on your terms. Turn it off any time.",
     points: [
       "Add a doctor you already know, or browse verified specialists",
-      "End-to-end encrypted transfer — HealthShare never reads the contents",
-      "Your doctor receives a clean, structured report, not raw device noise",
+      "Encrypted end to end — HealthShare relays access but never reads your data",
+      "Your doctor receives a clean, structured report (FHIR-ready), not raw device noise",
+      "Revoke any provider's access with one tap",
       "Works with clinics and medical centers, not just individuals",
     ],
   },
@@ -33,9 +34,9 @@ const phases = [
     label: "Coming soon",
     title: "The HealthShare Band",
     description:
-      "We're making our own wristband tracker — free for every HealthShare user. No subscription, no rental fee. Just put it on and your health data starts flowing.",
+      "Built around the same principle: full data ownership from day one. Tracks HRV, heart rate, sleep stages, and blood oxygen 24/7, syncing straight into Apple Health and your own storage. Built by our team — for ownership, not lock-in.",
     points: [
-      "Free wristband, no subscription — included with your account",
+      "Pricing and availability to be announced.",
       "Tracks HRV, heart rate, sleep stages, and blood oxygen 24/7",
       "Syncs directly into Apple Health and your HealthShare reports",
       "Built by our team, designed for full data ownership from day one",

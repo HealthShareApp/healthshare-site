@@ -11,18 +11,19 @@ export default function Privacy() {
           </svg>
         </div>
         <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-6">
-          Privacy by design
+          Built so we never hold your data
         </h2>
         <p className="text-lg text-white/80 leading-relaxed max-w-2xl mx-auto">
-          HealthShare has no backend, no user accounts, and no analytics. Your health data
-          never touches our servers. It flows directly from Apple Health on your device to
-          your own Google Drive — encrypted in transit, stored in your account.
+          No data lake. No analytics. No selling, no sharing — nothing for us to leak. Your
+          health data flows directly from Apple Health on your device into storage you own:
+          encrypted in transit, stored in your account, under your control. The one thing we
+          keep is nothing.
         </p>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
           {[
-            "No HealthShare servers",
-            "Your Drive, your files",
-            "You control every export",
+            "We never hold your data",
+            "Storage you own",
+            "You decide who reads it",
           ].map((text) => (
             <div
               key={text}
